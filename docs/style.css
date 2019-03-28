@@ -231,7 +231,7 @@ dd {
   margin-bottom: 1em;
 }
 
-cite::before {
+blockquote > cite::before {
   content: "— ";
 }
 
@@ -350,7 +350,7 @@ blockquote > cite {
 }
 
 @media screen and (min-width: 768px) {
-  #body {
+  .body {
     width: 748px;
     margin:10px auto;
   }
